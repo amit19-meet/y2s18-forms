@@ -5,13 +5,16 @@
 	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='style.css')}}">
 </head>
 <body>
-    <h1>{{ student.name }}</h1>
-	<p>
+    <h1 class="h1">{{ student.name }}</h1>
+    <hr>
+    <hr>
+    <hr>
+	<p class="hello">
 	Student Id: {{student.student_id}}<br>
 	Class: {{student.year}}<br>
 	Finished Lab: {{student.finished_lab}}
 	</p>
-    <p><a href="{{url_for('home')}}">Home</a></p>
+    <p id="the" ><a href="{{url_for('home')}}">Home</a></p>
     <form method="post", action= "/delete/{{id}}">
     	<input type="submit" value="delete">
     </form>

@@ -1,3 +1,33 @@
 body {
-    background: #fcfcfc;
+    background: blue;
+
+}
+.h1{
+	color: pink;
+	font-style: italic;
+	font-weight: bold;
+
+}
+#the{
+	font-size: 23px;
+	font-style: italic;
+}
+
+}
+#cool{
+	background-color: purple;
+}
+.hello{
+	color: white;
+	font-style: italic;
+	font-size: 23px;
+}
+#form{
+	color: white;
+	font-style: italic;
+	font-size: 23px;
+}
+.h2{
+	font-weight: bold;
+	font-size: 25px; 
 }
